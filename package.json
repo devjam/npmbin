@@ -1,0 +1,31 @@
+{
+  "name": "npmbin",
+  "version": "0.1.0",
+  "description": "call local command easily",
+  "main": "index.js",
+  "bin": {
+    "npmbin": "bin/cmd.js"
+  },
+  "scripts": {
+    "build": "coffee -bc --no-header bin/cmd.coffee",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devjam/npmbin"
+  },
+  "keywords": [
+    "npm",
+    "bin",
+    "helper"
+  ],
+  "bugs": {
+    "url": "https://github.com/devjam/npmbin/issues"
+  },
+  "homepage": "https://github.com/devjam/npmbin",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "^1.9.2"
+  }
+}
